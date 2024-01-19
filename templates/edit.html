@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Recipe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+</head>
+<body>
+    <h1 class="header">{{recipe['recipe']}}</h1>
+    <form action="{{url_for('edit', index=index)}}" method="post" class="form">
+        <input type="text" name="recipe" value="{{ recipe['recipe'] }}" >
+        <input type="text" name="ingredients" value="{{ recipe['ingredients'] }}" >
+        <input type="text" name="directions" value="{{ recipe['directions'] }}" >
+        <button type="submit" class="add-recipe-a">Save Changes</button>
+    </form>
+</body>
+</html>

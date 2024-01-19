@@ -1,0 +1,73 @@
+.main {
+    margin: 0 auto;
+    width: 50rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    font-size: 6rem;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 2rem;
+    font-family: Stencil Std, fantasy;
+}
+
+.individual-recipe {
+    font-family: Stencil std, fantasy;
+    margin-bottom: 0;
+}
+
+.add-recipe-a {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: black;
+    color: black;
+}
+
+.add-recipe-a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+a:hover {
+    color: red;
+}
+
+.center {
+    margin: 0 auto;
+    width: 10rem;
+}
+
+.form {
+  text-align: center;
+  background-color: #d3d3d3;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 13rem;
+  padding: 1.5rem;
+  width: 27rem;
+  margin: 0 auto;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
